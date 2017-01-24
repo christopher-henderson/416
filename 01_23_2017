@@ -27,6 +27,8 @@ Example Problem A
     - Completed 4 miles of sidewalk (13.75k/mile) (2 miles/wk)
 
 And YOU want to report PERFORMANCE!
+#####################################
+
 
 Formulae:
 
@@ -69,13 +71,20 @@ Formulae:
   6). SV (Schedule Variance):
     SV = EV - PV
     SV = $60k - $75K = -$15k
-    -SV > 0 The project is doing better than expected.
-    -SV < 0 The project is doing poorly and costs are running higher than expected.
-    -SV = 0 HOW U SO GUD AT PM!?
+    - SV > 0 The project is doing better than expected.
+    - SV < 0 The project is doing poorly and costs are running higher than expected.
+    - SV = 0 HOW U SO GUD AT PM!?
 
   7). CPI (Cost Performance Index):
     CPI = EV / AC
     CPI = $60k / $55k = 1.09
-    CPI > 1 Good Job
-    CPI < 1 Bad Job
-    CPI = 0 Job
+    - CPI > 1 Good Job
+    - CPI < 1 Bad Job
+    - CPI = 1 Job
+
+  8). SPI (Schedule Performance Index):
+    SPI = EV / PV
+    SPI = $60k / $75k = 0.8
+    - SPI > 1 Good Job
+    - SPI < 1 Bad Job
+    - SPI = 1 Job
