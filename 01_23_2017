@@ -1,0 +1,45 @@
+EVA - Earned Value Analysis
+EVM - Earned Value Management
+
+
+          /\
+         /  \
+Money   /    \    Scope
+       /      \
+      /        \
+     / quality  \
+     ____________
+        Time
+
+
+#####################################
+Example Problem A
+
+  Problem:
+    - 20 Miles of sidewalk.
+    - Construction Cost: 15k/mile
+  Plan:
+    -Will take 8 weeks to complete (2.5 miles/wk)
+
+  In Reality:
+    - 2 weeks into the project you do a "reality check"
+    - You have spent 55k
+    - Completed 4 miles of sidewalk (13.75k/mile) (2 miles/wk)
+
+And YOU want to report PERFORMANCE!
+
+Formulae:
+
+  (Formulae make reference to Example Problem A)
+
+  1). BAC (Budgeted at Completion):
+    BAC = unitsOfWork * pricePerUnitOfWork
+    BAC = 20(miles) * $15k = $300k
+    - Total project budget.
+
+  2). PV (Planned Value):
+    PV = completed * BAC
+    PV = 2/8 * 300 = 75k
+    - Planned percentage completed MULTIPLY by BAC
+    - How much work in (dollars) should have been completed by this point.
+    - Notice how we are using TIME spent as the "completed" variable, and NOT the miles of sidewalk finished.
