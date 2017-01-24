@@ -7,7 +7,7 @@ EVM - Earned Value Management
 Money   /    \    Scope
        /      \
       /        \
-     / quality  \
+     / Quality  \
      ____________
         Time
 
@@ -30,16 +30,52 @@ And YOU want to report PERFORMANCE!
 
 Formulae:
 
-  (Formulae make reference to Example Problem A)
+  (Formulae will make reference to Example Problem A)
 
   1). BAC (Budgeted at Completion):
     BAC = unitsOfWork * pricePerUnitOfWork
     BAC = 20(miles) * $15k = $300k
     - Total project budget.
 
-  2). PV (Planned Value):
+  2). PV (Planned Value) (also known as BCWS, Budgeted Cost of Work Schedule):
     PV = completed * BAC
-    PV = 2/8 * 300 = 75k
+    PV = 2/8 * $300k = $75k
     - Planned percentage completed MULTIPLY by BAC
     - How much work in (dollars) should have been completed by this point.
     - Notice how we are using TIME spent as the "completed" variable, and NOT the miles of sidewalk finished.
+    - "If everything went according to plan, then in two weeks you would have done enough work to award $75k."
+
+  3). EV (Earned Value) (also known as BCWP, Budgeted Cost of Work Performed)
+    EV = actualCompletion * BAC
+    EV = 4/20 * $300k = $60k
+    - ACTUAL earned value.
+    - Notice that this one is using the miles of sidewalk completed and NOT the time.
+    - Notice how we have earned $60k of value using only $55k.
+
+  4). AC (Actual Cost) (also known as ACWP, Actual Cost of Work Performed):
+    AC = sum(costs over a given period of time)
+    AC = All of the money spent on a project
+    AC = $55k
+    - Typically given, I guess. It's just what you spent.
+
+  5). CV (Cost Variance):
+    CV = EV - AC
+    CV = $60k - $55k = $5k
+    - The difference of the expected cost of the project and the actual cost of the project.
+    - CV > 0 The project is doing better than expected.
+    - CV < 0 The project is doing poorly and costs are running higher than expected.
+    - CV = 0 HOW U SO GUD AT PM!?
+
+  6). SV (Schedule Variance):
+    SV = EV - PV
+    SV = $60k - $75K = -$15k
+    -SV > 0 The project is doing better than expected.
+    -SV < 0 The project is doing poorly and costs are running higher than expected.
+    -SV = 0 HOW U SO GUD AT PM!?
+
+  7). CPI (Cost Performance Index):
+    CPI = EV / AC
+    CPI = $60k / $55k = 1.09
+    CPI > 1 Good Job
+    CPI < 1 Bad Job
+    CPI = 0 Job
