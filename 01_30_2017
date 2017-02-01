@@ -1,0 +1,40 @@
+Today we are going to do an example problem using the formulae we got on 01/23/2017 (see notes).
+
+Project Particulars:
+  - Building new offices in a building.
+  - We are adding six new identical rooms
+  - Project cost is $100,000
+  - It is expected to take 5 weeks.
+
+In Reality:
+  - 2 weeks into the project.
+  - Spent $17,500/room
+  - Finished 2 rooms
+
+1. BAC = $100k
+2. PV = 2 / 5 = 40%
+3. EV = 2 / 6 * BAC = $33,333
+4. AC = $17.5k * 2 = $35k
+5. CV = $33,333k - $35k = $-1,666
+6. SV = $33,333 - $60k = $-6,666
+7. CPI = $33,333 / $35k = 0.95  # For every dollar we spend we earn $0.95
+8. SPI = $33,333 / $40k = 0.83  # Underperforming
+
+Software Project
+
+Project Particulars:
+  - Planned time is 1 year.
+  - Planned cost is $12,500/month ($150,000 total)
+
+In Reality:
+  - 50% complete
+  - You've spent $70,000
+
+1. BAC = $150,000
+2. PV = 6 / 12 * $150000 = $75k
+3. EV = .5 * $150000 = $75k
+4. AC = $70000
+5. CV = $75k - $70k = $5000
+6. SV = $75k - $75k = 0
+7. CPI = $75k / $70k = 1.07
+8. SPI = $75k / $75k = 1
