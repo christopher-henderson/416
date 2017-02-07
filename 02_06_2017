@@ -1,0 +1,54 @@
+More EVM
+
+Reminder:
+  BAC = unitsOfWork * pricePerUnitOfWork
+  PV = completed * BAC
+  EV = actualCompletion * BAC
+  AC = sum(costs over a given period of time)
+  CV = EV - AC
+  SV = EV - PV
+  CPI = EV / AC
+  SPI = EV / PV
+
+# These values were derived from the week given in class.
+AC = 6.0
+PV = 3.0
+EV = 7.0
+
+Week 3:
+  CV = 7.0 - 6.0 = 1.0
+  SV = 7.0 - 3.0 = 4.0
+  CPI = 7.0 / 6.0 = 1.667
+  SPI = 7.0 / 3.0 = 2.333
+
+Week 4:
+  CV = 0.75
+  SV = 3
+  CPI = 1.12
+  SPI = 1.75
+
+Week 5:
+  CV = -1
+  SV = 2
+  CPI = 0.875
+  SPI = 1.4
+
+Week 6:
+  CV = -2.5
+  SV = 1.5
+  CPI = 0.75
+  SPI = 1.25
+
+######################
+Dependencies:
+  Mandatory: Inherit in the nature of the work (hard logic)
+  Discretionary: Discretionary (e.g the order in which components are implemented)
+  External: Involve relationships between project and non-project activities (e.g vendoring third party stuff).
+  Resource: Multiple projects depend on same resource (e.g only one dev for two projects)
+
+Task Networks:
+  Activity on Arrow: Nodes represent Events, edges represents Tasks.
+  Activity on Nodes: Nodes represent Tasks, edges represents dependencies Tasks.
+
+CPM (Critical Path Method):
+  - A critical path is the series of activities that determines the earliest time by which the project can be completed.
