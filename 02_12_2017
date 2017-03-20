@@ -1,0 +1,17 @@
+Dependencies:
+  Mandatory: Inherit in the nature of the work (hard logic)
+  Discretionary: Discretionary (e.g the order in which components are implemented)
+  External: Involve relationships between project and non-project activities (e.g vendoring third party stuff).
+  Resource: Multiple projects depend on same resource (e.g only one dev for two projects)
+
+Task Networks:
+  Activity on Arrow: Nodes represent Events, edges represents Tasks.
+  Activity on Nodes: Nodes represent Tasks, edges represents dependencies Tasks.
+
+CPM (Critical Path Method):
+  - A critical path is the series of activities that determines the earliest time by which the project can be completed.
+
+Terms:
+  Float (aka Slack): The amount time the activity can actually slip before it changes the critical path.
+  Slack: Critical path length - sum(Length of paths that have a delayed node on it)
+  Freeslack: The amount of time an activity can be delayed without affecting the early start date of subsequent dependent activites.
