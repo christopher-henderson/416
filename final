@@ -1,0 +1,22 @@
+1. Quality/Testing:
+  - Different types of testing. Unit, acceptance, alpha, pilot, integration, etc. Check class slides.
+    * Unit Testing (not covered)
+    * Acceptance Testing
+    * Installation Testing
+    * Regression Testing
+    * Functional (System) Testing
+    * Automated Testing
+    * Integration Testing
+    * Stress Testing
+2.CPM, Critical Path Method:
+  - Same as the midterm.
+  - Again, critical path is the one that is longest.
+    I.E. "What is the shortest time to finish" is the longest path on the graph.
+3. EVA, Earned Value Analysis:
+  - Same as the midterm.
+  - There are two types of questions.
+      * Computations
+      * Just look at the graph (this is what will be on the final!)
+4. Risk Management:
+  - Just understand that I understand how to do those calculations of the tree
+  - See notes from 03_27_2017

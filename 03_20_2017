@@ -1,0 +1,38 @@
+Project Risk
+
+Characteristics:
+  Uncertainty
+  Loss (money, life, reputation, etc)
+  Manageability - can be managed
+
+Risk Exposure:
+  Product of probability and potential loss.
+
+Problem:
+  A risk that has materialized.
+
+
+Example:
+  Risk:
+    40% Chance of happening.
+    $20 Million loss.
+  P(Uo) -> Probability of Unsatisfactory Outcome
+  P(Uo) = 0.4
+  L(Uo) -> Loss of Unsatisfactory Outcome
+  L(Uo) = $20,000,000
+
+Example 2:
+  We have this company, called company A. Company A is expecting to make
+  10,000,000 in revenue (if we are on time). The risk is if we are late, then
+  we lose all revenue.
+
+  Options:
+    1. No Action -> P(Uo) = 0.60
+      0.60 * 10000000 = 6000000
+      Risk Exposure = 6M
+    2. Hire a consulting company to help for 1M in order to get P(Uo) = 0.20
+      0.80 * 9000000 = 7200000
+      Risk Exposure = 0.8 * 1M + 11 * 0.2 = 3M
+    3. Reduce Scope. Estimated revenue is 5M in order to get P(Uo) = 0.10
+      0.90 * 5000000 = 4500000
+      Risk Exposure = 0.9 * 5M + 0.1 * 10M = 5.5M

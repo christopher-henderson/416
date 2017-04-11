@@ -1,0 +1,18 @@
+For a give decision, calculate the possible LOSSES incurred during both a success
+AND a failure, add these two numbers together and name it the overall risk exposure.
+
+Requirement 3: Business Value = 70, Cost = 50
+Risk 3 = 0.25 chance, costs 40
+Add Resources = Reduce risk by 0.1, costs 10
+
+                    0.25    *    40            10
+              chance failure   losses
+No action                                      +         10
+                    0.75    *    0             0
+              chance success   losses
+
+                    0.15    *    10 + 40       7.5
+              chance failure     losses
+Add Resources                                   +         16
+                    0.85    *    10            8.5
+              chance success   losses
